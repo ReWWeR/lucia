@@ -30,7 +30,7 @@ export const lucia = new Lucia(adapter, {
 		// IMPORTANT!
 		attributes: {
 			// set to `true` when using HTTPS
-			secure: !process.dev
+			secure: !import.meta.dev
 		}
 	}
 });
